@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:00015138_YouTube-Dance_movies_YEyFdtni3uU_0003",
+  "sample_id": "00015138",
+  "sample_name": "00015138_YouTube-Dance_movies_YEyFdtni3uU_0003",
+  "dataset_repo": "wendell0218/Movens-5M",
+  "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+  "pair_version": "floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d",
+  "media": {
+    "human": {
+      "path": "media/00015138/floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d/human.mp4",
+      "sha256": "92249dd453f0c4a85074fc0050058ca7cce30f87d53ef381be6a7658f95423d1",
+      "version": "b_grip_v002+floorless",
+      "frame_count": 135,
+      "fps": "30/1",
+      "width": 512,
+      "height": 512,
+      "duration_s": 4.5,
+      "pts_origin_s": 0.0,
+      "motion_kind": "smplx_derived"
+    },
+    "g1": {
+      "path": "media/00015138/floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d/g1.mp4",
+      "sha256": "2d3c0a411dabf94354c919841930a6d959249799fbf692bad03ecc2bdb4773af",
+      "version": "b_grip_v001+floorless",
+      "frame_count": 135,
+      "fps": "30/1",
+      "width": 512,
+      "height": 512,
+      "duration_s": 4.5,
+      "pts_origin_s": 0.0,
+      "motion_kind": "tracking"
+    }
+  },
+  "timing": {
+    "mode": "shared_output_clock",
+    "mapping_path": null,
+    "valid_interval_s": [
+      0,
+      4.5
+    ]
+  },
+  "quality_status": "needs_review",
+  "quality_note": "人体修正版 · G1 tracking",
+  "export_note": "Static export of the exact Final media bytes; no new motion quality validation. Detailed private history remains in the source project."
+}

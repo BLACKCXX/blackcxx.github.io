@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:jDYwk5mAwmc_00027_0_241",
+  "sample_id": "00018909",
+  "sample_name": "jDYwk5mAwmc_00027_0_241",
+  "dataset_repo": "wendell0218/Movens-5M",
+  "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+  "pair_version": "floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84",
+  "media": {
+    "human": {
+      "path": "media/00018909/floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84/human.mp4",
+      "sha256": "68f37209abe36b919e16cbd3592a227eedada2a78c1b58c9bc79f1eded1eea92",
+      "version": "b_grip_v002+floorless",
+      "frame_count": 241,
+      "fps": "30/1",
+      "width": 512,
+      "height": 512,
+      "duration_s": 8.033333,
+      "pts_origin_s": 0.0,
+      "motion_kind": "smplx_derived"
+    },
+    "g1": {
+      "path": "media/00018909/floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84/g1.mp4",
+      "sha256": "a8fd347a8415fbac49d4a410f9c7f7357199ed6e10eee47b6c01e91a4d1df273",
+      "version": "b_grip_v002+floorless",
+      "frame_count": 241,
+      "fps": "30/1",
+      "width": 512,
+      "height": 512,
+      "duration_s": 8.033333,
+      "pts_origin_s": 0.0,
+      "motion_kind": "tracking_derived_kinematic"
+    }
+  },
+  "timing": {
+    "mode": "shared_output_clock",
+    "mapping_path": null,
+    "valid_interval_s": [
+      0,
+      8.033333
+    ]
+  },
+  "quality_status": "needs_review",
+  "quality_note": "G1 运动学修正版",
+  "export_note": "Static export of the exact Final media bytes; no new motion quality validation. Detailed private history remains in the source project."
+}

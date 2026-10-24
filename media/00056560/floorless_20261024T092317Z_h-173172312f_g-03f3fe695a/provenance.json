@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:d3uu7C26flM_00002_0_261",
+  "sample_id": "00056560",
+  "sample_name": "d3uu7C26flM_00002_0_261",
+  "dataset_repo": "wendell0218/Movens-5M",
+  "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+  "pair_version": "floorless_20261024T092317Z_h-173172312f_g-03f3fe695a",
+  "media": {
+    "human": {
+      "frame_count": 261,
+      "width": 512,
+      "height": 512,
+      "duration_s": 8.7,
+      "fps": "30/1",
+      "pts_origin_s": 0.0,
+      "path": "media/00056560/floorless_20261024T092317Z_h-173172312f_g-03f3fe695a/human.mp4",
+      "sha256": "173172312f75c50f4813909af91d67957b3cfb452defa47360f28cd5ae79bce2",
+      "version": "contact_robot_wrap_v2+floorless",
+      "motion_kind": "smplx"
+    },
+    "g1": {
+      "frame_count": 261,
+      "width": 512,
+      "height": 512,
+      "duration_s": 8.7,
+      "fps": "30/1",
+      "pts_origin_s": 0.0,
+      "path": "media/00056560/floorless_20261024T092317Z_h-173172312f_g-03f3fe695a/g1.mp4",
+      "sha256": "03f3fe695a5dc11cc27aecf60d9763f7dcf394ac08a482478b471743e053f207",
+      "version": "contact_robot_wrap_v2+floorless",
+      "motion_kind": "derived_kinematic"
+    }
+  },
+  "timing": {
+    "mode": "shared_output_clock",
+    "mapping_path": null,
+    "valid_interval_s": [
+      0,
+      8.7
+    ]
+  },
+  "quality_status": "needs_review",
+  "quality_note": "G1 运动学修正版",
+  "export_note": "Static export of the exact Final media bytes; no new motion quality validation. Detailed private history remains in the source project."
+}

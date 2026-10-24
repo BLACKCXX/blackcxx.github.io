@@ -32,6 +32,7 @@ class PairCard {
       v.addEventListener('ended',()=>this.restart().catch(e=>this.fail(e)));
       this.videos[side]=v;this.stage.append(v);
     }
+    this.blend=node('canvas','transition-frame');this.blend.setAttribute('aria-hidden','true');this.stage.append(this.blend);this.blendAnimation=null;
     this.badge=node('span','badge','HUMANOID · G1');this.stage.append(this.badge);
     this.message=node('span','media-message');this.message.hidden=true;this.stage.append(this.message);
     const info=node('div','card-info'), title=node('div','card-title');title.append(node('h2','',sample.title),node('span','number',String(index+1).padStart(2,'0')));
@@ -61,6 +62,26 @@ class PairCard {
     Object.entries(this.videos).forEach(([side,v])=>v.classList.toggle('active',this.packed || side===mode));
     this.poster.hidden=true;this.message.hidden=true;this.el.dataset.ready='true';
   }
+  swapMode(mode){
+    // Hold the displayed frame until the aligned destination is ready, then
+    // dissolve the old view over it. Crop packed pairs instead of sliding them.
+    const v=this.active(), duration=matchMedia('(prefers-reduced-motion: reduce)').matches?0:220;
+    if(!duration || v.readyState<2){this.blendAnimation?.cancel();this.blend.style.opacity='0';this.showMode(mode);return;}
+    const width=this.packed?v.videoWidth/2:v.videoWidth, height=v.videoHeight;
+    if(!width || !height){this.showMode(mode);return;}
+    const frame=document.createElement('canvas');frame.width=width;frame.height=height;
+    const ctx=frame.getContext('2d');
+    ctx.drawImage(v,this.packed && this.mode==='g1'?width:0,0,width,height,0,0,width,height);
+    if(this.blendAnimation?.playState==='running'){
+      ctx.globalAlpha=Number(getComputedStyle(this.blend).opacity);ctx.drawImage(this.blend,0,0,width,height);
+    }
+    this.blendAnimation?.cancel();this.blend.width=width;this.blend.height=height;
+    this.blend.getContext('2d').drawImage(frame,0,0);this.blend.style.opacity='1';
+    this.showMode(mode);
+    const animation=this.blend.animate([{opacity:1},{opacity:0}],{duration,easing:'cubic-bezier(.2,.7,.2,1)',fill:'forwards'});
+    this.blendAnimation=animation;
+    animation.finished.then(()=>{if(this.blendAnimation===animation){this.blend.style.opacity='0';animation.cancel();this.blendAnimation=null;}}).catch(()=>{});
+  }
   fail(error){this.error=error.message;this.message.textContent=this.error;this.message.hidden=false;this.play.textContent='点击播放';this.el.dataset.error=this.error;}
   async loadSide(side){
     const v=this.videos[this.packed?'g1':side];
@@ -89,7 +110,7 @@ class PairCard {
     try{
       await this.ensure();
       while(this.mode!==this.desired){
-        if(this.packed){this.showMode(this.desired);break;}
+        if(this.packed){this.swapMode(this.desired);break;}
         const targetSide=this.desired;
         const target=await this.loadSide(targetSide);
         if(targetSide!==this.desired)continue;
@@ -99,7 +120,7 @@ class PairCard {
         target.loop=this.clock.mode==='shared_output_clock' && this.clock.range[0]===0 && Math.abs(this.clock.range[1]-target.duration)<.0001;
         await seek(target,this.clock.toMedia(targetSide,t));
         if(targetSide!==this.desired)continue;
-        this.showMode(targetSide);
+        this.swapMode(targetSide);
       }
       delete this.el.dataset.error;this.error=null;this.message.hidden=true;
     }finally{this.busy=false;this.syncPlay();}

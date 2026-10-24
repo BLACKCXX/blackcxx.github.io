@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 7,
+  "revision": 9,
   "samples": [
     {
       "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:EWZcvbZ0GAg_00006_0_79",
@@ -12,11 +12,11 @@
       "collection": "original_15",
       "original_index": 1,
       "contributor_id": "all115_20261023T102134Z_ball",
-      "pair_version": "ball008_h-af8e7b3723_g-3b00cccd38",
+      "pair_version": "floorless_20261024T092317Z_h-939be7e7a5_g-42ecc09c8a",
       "human": {
-        "path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/human.mp4",
-        "sha256": "af8e7b3723746aede0fe73df8f0e3f361066359098d93492975e73321ff89b02",
-        "version": "candidate_ball_007",
+        "path": "media/00011000/floorless_20261024T092317Z_h-939be7e7a5_g-42ecc09c8a/human.mp4",
+        "sha256": "939be7e7a5897186f7e839e1bdd00732660fd4cd5f08e1255678f7a0f17a27f0",
+        "version": "candidate_ball_007+floorless",
         "frame_count": 79,
         "fps": "30/1",
         "width": 512,
@@ -26,9 +26,9 @@
         "motion_kind": "smplx"
       },
       "g1": {
-        "path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/g1.mp4",
-        "sha256": "3b00cccd3865c1084a8351747bfff924c3be9dd4992bb720e73b089cc8329778",
-        "version": "candidate_ball_008",
+        "path": "media/00011000/floorless_20261024T092317Z_h-939be7e7a5_g-42ecc09c8a/g1.mp4",
+        "sha256": "42ecc09c8a2bbf4cb9833aba215002ceab13af043b097ba7e25772434af65ef3",
+        "version": "candidate_ball_008+floorless",
         "frame_count": 79,
         "fps": "30/1",
         "width": 512,
@@ -37,7 +37,7 @@
         "pts_origin_s": 0.0,
         "motion_kind": "derived_kinematic"
       },
-      "poster_path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/poster.jpg",
+      "poster_path": "media/00011000/floorless_20261024T092317Z_h-939be7e7a5_g-42ecc09c8a/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -46,22 +46,11 @@
           2.633333
         ]
       },
-      "source_url": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/source.mp4",
-      "details_url": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/details.html",
-      "provenance_path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/provenance.json",
+      "source_url": "media/00011000/floorless_20261024T092317Z_h-939be7e7a5_g-42ecc09c8a/source.mp4",
+      "details_url": "media/00011000/floorless_20261024T092317Z_h-939be7e7a5_g-42ecc09c8a/details.html",
+      "provenance_path": "media/00011000/floorless_20261024T092317Z_h-939be7e7a5_g-42ecc09c8a/provenance.json",
       "quality_status": "targeted_repairs_implemented_and_reviewed",
-      "quality_note": "G1 运动学修正版",
-      "presentation": {
-        "kind": "packed_pair",
-        "path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/pair.mp4",
-        "sha256": "f892da633901ffdbc8a3b167a7287c66637c446225a42c245ba57ecfa5cd22e1",
-        "layout": {
-          "human": "left",
-          "g1": "right"
-        },
-        "pane_width": 512,
-        "pane_height": 512
-      }
+      "quality_note": "G1 运动学修正版"
     },
     {
       "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:d3uu7C26flM_00002_0_261",
@@ -72,7 +61,7 @@
       "title": "壶铃摆动",
       "collection": "original_15",
       "contributor_id": "agent_C",
-      "pair_version": "contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7",
+      "pair_version": "floorless_20261024T092317Z_h-173172312f_g-03f3fe695a",
       "human": {
         "frame_count": 261,
         "width": 512,
@@ -80,9 +69,9 @@
         "duration_s": 8.7,
         "fps": "30/1",
         "pts_origin_s": 0.0,
-        "path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/human.mp4",
-        "sha256": "94d6f6877bc45acc60c85be3b397c6756a3c2d554fd1306cf236891810cfc37e",
-        "version": "contact_robot_wrap_v2",
+        "path": "media/00056560/floorless_20261024T092317Z_h-173172312f_g-03f3fe695a/human.mp4",
+        "sha256": "173172312f75c50f4813909af91d67957b3cfb452defa47360f28cd5ae79bce2",
+        "version": "contact_robot_wrap_v2+floorless",
         "motion_kind": "smplx"
       },
       "g1": {
@@ -92,12 +81,12 @@
         "duration_s": 8.7,
         "fps": "30/1",
         "pts_origin_s": 0.0,
-        "path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/g1.mp4",
-        "sha256": "69aa3795f7bdbdf85b43e20354dd941011e0f082ed91324d8be2a8e5e8fcac0d",
-        "version": "contact_robot_wrap_v2",
+        "path": "media/00056560/floorless_20261024T092317Z_h-173172312f_g-03f3fe695a/g1.mp4",
+        "sha256": "03f3fe695a5dc11cc27aecf60d9763f7dcf394ac08a482478b471743e053f207",
+        "version": "contact_robot_wrap_v2+floorless",
         "motion_kind": "derived_kinematic"
       },
-      "poster_path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/poster.jpg",
+      "poster_path": "media/00056560/floorless_20261024T092317Z_h-173172312f_g-03f3fe695a/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -106,9 +95,9 @@
           8.7
         ]
       },
-      "source_url": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/source.mp4",
-      "details_url": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/details.html",
-      "provenance_path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/provenance.json",
+      "source_url": "media/00056560/floorless_20261024T092317Z_h-173172312f_g-03f3fe695a/source.mp4",
+      "details_url": "media/00056560/floorless_20261024T092317Z_h-173172312f_g-03f3fe695a/details.html",
+      "provenance_path": "media/00056560/floorless_20261024T092317Z_h-173172312f_g-03f3fe695a/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "G1 运动学修正版"
     },
@@ -121,7 +110,7 @@
       "title": "蓝壶铃侧向摆动",
       "collection": "new_100",
       "contributor_id": "targeted_human_20261024T073445Z",
-      "pair_version": "human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5",
+      "pair_version": "floorless_20261024T092317Z_h-3982d06aa6_g-d4c0f44415",
       "human": {
         "frame_count": 335,
         "width": 512,
@@ -129,9 +118,9 @@
         "duration_s": 11.166667,
         "fps": "30/1",
         "pts_origin_s": 0.0,
-        "path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/human.mp4",
-        "sha256": "54d8b1d9c2cc2e9fc34d064b24213bae68cca80341b3deaeaf93f3d5d91932d0",
-        "version": "human_refine_20261024T073445Z_candidate_v2",
+        "path": "media/00004026/floorless_20261024T092317Z_h-3982d06aa6_g-d4c0f44415/human.mp4",
+        "sha256": "3982d06aa618bd902376566a476db37e6feb260a4fcdb6f0d2e85f490961ba9b",
+        "version": "human_refine_20261024T073445Z_candidate_v2+floorless",
         "motion_kind": "smplx"
       },
       "g1": {
@@ -141,12 +130,12 @@
         "duration_s": 11.166667,
         "fps": "30/1",
         "pts_origin_s": 0.0,
-        "path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/g1.mp4",
-        "sha256": "6c835174a57fff9d0b7af095c74439dff44cc6e04feeb8c0313dc511f931cc0e",
-        "version": "baseline_20261024T0031Z",
+        "path": "media/00004026/floorless_20261024T092317Z_h-3982d06aa6_g-d4c0f44415/g1.mp4",
+        "sha256": "d4c0f44415639b0b4e82e17650237e208a85f2904edc51369fb3032d4ba8221d",
+        "version": "baseline_20261024T0031Z+floorless",
         "motion_kind": "tracking_preserved"
       },
-      "poster_path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/poster.jpg",
+      "poster_path": "media/00004026/floorless_20261024T092317Z_h-3982d06aa6_g-d4c0f44415/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -155,61 +144,11 @@
           11.166667
         ]
       },
-      "source_url": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/source.mp4",
-      "details_url": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/details.html",
-      "provenance_path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/provenance.json",
+      "source_url": "media/00004026/floorless_20261024T092317Z_h-3982d06aa6_g-d4c0f44415/source.mp4",
+      "details_url": "media/00004026/floorless_20261024T092317Z_h-3982d06aa6_g-d4c0f44415/details.html",
+      "provenance_path": "media/00004026/floorless_20261024T092317Z_h-3982d06aa6_g-d4c0f44415/provenance.json",
       "quality_status": "targeted_human_frame_reviewed_with_known_limits",
       "quality_note": "G1 保留原版本 · 人体局部修正",
-      "previous_contributor_id": "agent_C"
-    },
-    {
-      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:RvjfOJXno5w_00033_0_126",
-      "dataset_repo": "wendell0218/Movens-5M",
-      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
-      "sample_id": "00070479",
-      "sample_name": "RvjfOJXno5w_00033_0_126",
-      "title": "俯身取哑铃",
-      "collection": "original_15",
-      "contributor_id": "targeted_human_20261024T073445Z",
-      "pair_version": "human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3",
-      "human": {
-        "frame_count": 157,
-        "width": 512,
-        "height": 512,
-        "duration_s": 5.233333,
-        "fps": "30/1",
-        "pts_origin_s": 0.0,
-        "path": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/human.mp4",
-        "sha256": "27562a6e66452c374fa9a5dc6d4aa607fe2f7ed1d81f76fe37f7b6e100c4eb36",
-        "version": "human_refine_20261024T073445Z_candidate_v1",
-        "motion_kind": "smplx"
-      },
-      "g1": {
-        "frame_count": 157,
-        "width": 512,
-        "height": 512,
-        "duration_s": 5.233333,
-        "fps": "30/1",
-        "pts_origin_s": 0.0,
-        "path": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/g1.mp4",
-        "sha256": "c65c66e5c3e0225bdbabda404c5220366b16eca3b677799a6bc5814e06b2bcd4",
-        "version": "contact_db_posture_v1",
-        "motion_kind": "derived_kinematic"
-      },
-      "poster_path": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/poster.jpg",
-      "timing": {
-        "mode": "shared_output_clock",
-        "mapping_path": null,
-        "valid_interval_s": [
-          0,
-          5.233333
-        ]
-      },
-      "source_url": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/source.mp4",
-      "details_url": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/details.html",
-      "provenance_path": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/provenance.json",
-      "quality_status": "targeted_human_frame_reviewed_with_known_limits",
-      "quality_note": "G1 运动学修正版 · 人体局部修正",
       "previous_contributor_id": "agent_C"
     },
     {
@@ -222,7 +161,7 @@
       "title": "举黄筐倾倒",
       "collection": "new_100",
       "contributor_id": "agent_D",
-      "pair_version": "candidate_10_h-4eb5986975_g-fee3254ee1",
+      "pair_version": "floorless_20261024T092317Z_h-45b8e63ca5_g-b0204e26ba",
       "human": {
         "frame_count": 169,
         "width": 768,
@@ -230,9 +169,9 @@
         "duration_s": 5.633333,
         "fps": "30/1",
         "pts_origin_s": 0.0,
-        "path": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/human.mp4",
-        "sha256": "4eb598697568ef2ceb2a4b871525fdefb20e1efc0e3f649f2c8da6ff86006c51",
-        "version": "candidate_10",
+        "path": "media/00060782/floorless_20261024T092317Z_h-45b8e63ca5_g-b0204e26ba/human.mp4",
+        "sha256": "45b8e63ca57ff98633be6715c9e299f90df65d572a9f23324463f2f9dd27efa4",
+        "version": "candidate_10+floorless",
         "motion_kind": "smplx"
       },
       "g1": {
@@ -242,12 +181,12 @@
         "duration_s": 5.633333,
         "fps": "30/1",
         "pts_origin_s": 0.0,
-        "path": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/g1.mp4",
-        "sha256": "fee3254ee1de67ca32b1a6ff1eee38b22f8ec16f88766830fbdc33c279a7f181",
-        "version": "candidate_10",
+        "path": "media/00060782/floorless_20261024T092317Z_h-45b8e63ca5_g-b0204e26ba/g1.mp4",
+        "sha256": "b0204e26ba230208344d503c757e726c271f1903d42698815414d8b089ca8cb8",
+        "version": "candidate_10+floorless",
         "motion_kind": "derived_kinematic"
       },
-      "poster_path": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/poster.jpg",
+      "poster_path": "media/00060782/floorless_20261024T092317Z_h-45b8e63ca5_g-b0204e26ba/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -256,112 +195,11 @@
           5.633333
         ]
       },
-      "source_url": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/source.mp4",
-      "details_url": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/details.html",
-      "provenance_path": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/provenance.json",
+      "source_url": "media/00060782/floorless_20261024T092317Z_h-45b8e63ca5_g-b0204e26ba/source.mp4",
+      "details_url": "media/00060782/floorless_20261024T092317Z_h-45b8e63ca5_g-b0204e26ba/details.html",
+      "provenance_path": "media/00060782/floorless_20261024T092317Z_h-45b8e63ca5_g-b0204e26ba/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "G1 运动学修正版"
-    },
-    {
-      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:_TLCZy-UlRk_00002_138_225",
-      "dataset_repo": "wendell0218/Movens-5M",
-      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
-      "sample_name": "_TLCZy-UlRk_00002_138_225",
-      "cohort": "new_100",
-      "sample_id": "00004987",
-      "title": "搬放花盆",
-      "collection": "new_100",
-      "contributor_id": "agent_D",
-      "pair_version": "candidate_12_h-890ce89639_g-6586a24a44",
-      "human": {
-        "frame_count": 87,
-        "width": 768,
-        "height": 768,
-        "duration_s": 2.9,
-        "fps": "30/1",
-        "pts_origin_s": 0.0,
-        "path": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/human.mp4",
-        "sha256": "890ce8963931b38bf87867a6355d9148f853a235ab11fd51c51835fc4bc193d8",
-        "version": "candidate_11",
-        "motion_kind": "smplx"
-      },
-      "g1": {
-        "frame_count": 87,
-        "width": 768,
-        "height": 768,
-        "duration_s": 2.9,
-        "fps": "30/1",
-        "pts_origin_s": 0.0,
-        "path": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/g1.mp4",
-        "sha256": "6586a24a4496a9f02c300495dc13dd2767479f64a30e07f055459cdf9d954861",
-        "version": "candidate_12",
-        "motion_kind": "derived_kinematic"
-      },
-      "poster_path": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/poster.jpg",
-      "timing": {
-        "mode": "shared_output_clock",
-        "mapping_path": null,
-        "valid_interval_s": [
-          0,
-          2.9
-        ]
-      },
-      "source_url": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/source.mp4",
-      "details_url": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/details.html",
-      "provenance_path": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/provenance.json",
-      "quality_status": "needs_review",
-      "quality_note": "G1 运动学修正版"
-    },
-    {
-      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:uA7Ye9jqPi4_00013_0_179",
-      "dataset_repo": "wendell0218/Movens-5M",
-      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
-      "sample_name": "uA7Ye9jqPi4_00013_0_179",
-      "cohort": "new_100",
-      "sample_id": "00041913",
-      "title": "扛长管行走",
-      "collection": "new_100",
-      "contributor_id": "targeted_human_20261024T073445Z",
-      "pair_version": "human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7",
-      "human": {
-        "frame_count": 179,
-        "width": 768,
-        "height": 768,
-        "duration_s": 5.966667,
-        "fps": "30/1",
-        "pts_origin_s": 0.0,
-        "path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/human.mp4",
-        "sha256": "e9eb0c674b858282733c64284b9e1e7822192fced09b798f425431b4a414f25d",
-        "version": "human_refine_20261024T073445Z_candidate_v1",
-        "motion_kind": "smplx"
-      },
-      "g1": {
-        "frame_count": 179,
-        "width": 768,
-        "height": 768,
-        "duration_s": 5.966667,
-        "fps": "30/1",
-        "pts_origin_s": 0.0,
-        "path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/g1.mp4",
-        "sha256": "7292a71eb79bb6f82a62a092777685466e0c50a48d2ab3c2fdd6cd8e0d344d7d",
-        "version": "candidate_11",
-        "motion_kind": "derived_kinematic"
-      },
-      "poster_path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/poster.jpg",
-      "timing": {
-        "mode": "shared_output_clock",
-        "mapping_path": null,
-        "valid_interval_s": [
-          0,
-          5.966667
-        ]
-      },
-      "source_url": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/source.mp4",
-      "details_url": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/details.html",
-      "provenance_path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/provenance.json",
-      "quality_status": "targeted_human_frame_reviewed_with_known_limits",
-      "quality_note": "G1 运动学修正版 · 人体局部修正",
-      "previous_contributor_id": "agent_D"
     },
     {
       "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:cZZvNB66wBM_00007_0_84",
@@ -373,7 +211,7 @@
       "title": "搬放圆凳",
       "collection": "original_15",
       "contributor_id": "agent_D",
-      "pair_version": "candidate_10_h-0230e4a91a_g-e1283e4dab",
+      "pair_version": "floorless_20261024T092317Z_h-e9ff60f6de_g-bf1fc088a7",
       "human": {
         "frame_count": 84,
         "width": 768,
@@ -381,9 +219,9 @@
         "duration_s": 2.8,
         "fps": "30/1",
         "pts_origin_s": 0.0,
-        "path": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/human.mp4",
-        "sha256": "0230e4a91a05edae60d3dc540b187982587abd40f95df8f89ba845df1b506a79",
-        "version": "candidate_09",
+        "path": "media/00047208/floorless_20261024T092317Z_h-e9ff60f6de_g-bf1fc088a7/human.mp4",
+        "sha256": "e9ff60f6def29af7d069a0f516592eeb75440411251d38a32e1a1248570a4110",
+        "version": "candidate_09+floorless",
         "motion_kind": "smplx"
       },
       "g1": {
@@ -393,12 +231,12 @@
         "duration_s": 2.8,
         "fps": "30/1",
         "pts_origin_s": 0.0,
-        "path": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/g1.mp4",
-        "sha256": "e1283e4dab107e769e50b16b120eb31249cb5f81d261876203df219c2737f729",
-        "version": "candidate_10",
+        "path": "media/00047208/floorless_20261024T092317Z_h-e9ff60f6de_g-bf1fc088a7/g1.mp4",
+        "sha256": "bf1fc088a784bc8a5f7b218cfba43a9e194e3c56ed4947154fb779bc03d7d387",
+        "version": "candidate_10+floorless",
         "motion_kind": "derived_kinematic"
       },
-      "poster_path": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/poster.jpg",
+      "poster_path": "media/00047208/floorless_20261024T092317Z_h-e9ff60f6de_g-bf1fc088a7/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -407,9 +245,9 @@
           2.8
         ]
       },
-      "source_url": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/source.mp4",
-      "details_url": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/details.html",
-      "provenance_path": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/provenance.json",
+      "source_url": "media/00047208/floorless_20261024T092317Z_h-e9ff60f6de_g-bf1fc088a7/source.mp4",
+      "details_url": "media/00047208/floorless_20261024T092317Z_h-e9ff60f6de_g-bf1fc088a7/details.html",
+      "provenance_path": "media/00047208/floorless_20261024T092317Z_h-e9ff60f6de_g-bf1fc088a7/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "G1 运动学修正版"
     },
@@ -424,11 +262,11 @@
       "feedback_no": 2,
       "new100_index": null,
       "contributor_id": "agent_B",
-      "pair_version": "b002_h-dbf102f65544_g-f679f275de26",
+      "pair_version": "floorless_20261024T092317Z_h-6bf9d97858_g-962b9085a8",
       "human": {
-        "path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/human.mp4",
-        "sha256": "dbf102f655442f8ae212cf4b509b95fc5047b3dc5d1f550725aaaeeb0e9880b3",
-        "version": "b_grip_v002",
+        "path": "media/00060893/floorless_20261024T092317Z_h-6bf9d97858_g-962b9085a8/human.mp4",
+        "sha256": "6bf9d97858cca93b00b9541764c447b99ec166c1c5f4d00e860f857960d00a04",
+        "version": "b_grip_v002+floorless",
         "frame_count": 107,
         "fps": "30/1",
         "width": 512,
@@ -438,9 +276,9 @@
         "motion_kind": "smplx_derived"
       },
       "g1": {
-        "path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/g1.mp4",
-        "sha256": "f679f275de26cbf9bf9e05416e82c926b56aba694fb68a56d1d861fb703c21af",
-        "version": "b_grip_v001",
+        "path": "media/00060893/floorless_20261024T092317Z_h-6bf9d97858_g-962b9085a8/g1.mp4",
+        "sha256": "962b9085a8bcc536562083e7905b4ae853a317290b0ff4b4c197d4d5b89c64db",
+        "version": "b_grip_v001+floorless",
         "frame_count": 107,
         "fps": "30/1",
         "width": 512,
@@ -449,7 +287,7 @@
         "pts_origin_s": 0.0,
         "motion_kind": "tracking_derived_kinematic"
       },
-      "poster_path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/poster.jpg",
+      "poster_path": "media/00060893/floorless_20261024T092317Z_h-6bf9d97858_g-962b9085a8/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -458,9 +296,9 @@
           3.566667
         ]
       },
-      "source_url": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/source.mp4",
-      "details_url": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/details.html",
-      "provenance_path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/provenance.json",
+      "source_url": "media/00060893/floorless_20261024T092317Z_h-6bf9d97858_g-962b9085a8/source.mp4",
+      "details_url": "media/00060893/floorless_20261024T092317Z_h-6bf9d97858_g-962b9085a8/details.html",
+      "provenance_path": "media/00060893/floorless_20261024T092317Z_h-6bf9d97858_g-962b9085a8/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "G1 运动学修正版"
     },
@@ -475,11 +313,11 @@
       "feedback_no": 9,
       "new100_index": 63,
       "contributor_id": "agent_B",
-      "pair_version": "b002_h-a7dd8bd043fd_g-10f39a60e502",
+      "pair_version": "floorless_20261024T092317Z_h-7c631253dd_g-aca173391e",
       "human": {
-        "path": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/human.mp4",
-        "sha256": "a7dd8bd043fd4566e91c9699f2ecbb08865fb0267a1062069e7f7d39bba2e06b",
-        "version": "b_grip_v002",
+        "path": "media/00014626/floorless_20261024T092317Z_h-7c631253dd_g-aca173391e/human.mp4",
+        "sha256": "7c631253dd8f8204d4e8502d2a0f0672f594bf971b6d2852d11bca9238908def",
+        "version": "b_grip_v002+floorless",
         "frame_count": 94,
         "fps": "30/1",
         "width": 512,
@@ -489,9 +327,9 @@
         "motion_kind": "smplx_derived"
       },
       "g1": {
-        "path": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/g1.mp4",
-        "sha256": "10f39a60e502ee6c8cb1f169a97f5d8655032a2b85ccdc76ba5d38ff5b803d04",
-        "version": "b_grip_v001",
+        "path": "media/00014626/floorless_20261024T092317Z_h-7c631253dd_g-aca173391e/g1.mp4",
+        "sha256": "aca173391ef381a99f5558b22e52e542a7eb7dd1d359de93c6fab2f83f18f595",
+        "version": "b_grip_v001+floorless",
         "frame_count": 94,
         "fps": "30/1",
         "width": 512,
@@ -500,7 +338,7 @@
         "pts_origin_s": 0.0,
         "motion_kind": "tracking"
       },
-      "poster_path": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/poster.jpg",
+      "poster_path": "media/00014626/floorless_20261024T092317Z_h-7c631253dd_g-aca173391e/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -509,9 +347,9 @@
           3.133333
         ]
       },
-      "source_url": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/source.mp4",
-      "details_url": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/details.html",
-      "provenance_path": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/provenance.json",
+      "source_url": "media/00014626/floorless_20261024T092317Z_h-7c631253dd_g-aca173391e/source.mp4",
+      "details_url": "media/00014626/floorless_20261024T092317Z_h-7c631253dd_g-aca173391e/details.html",
+      "provenance_path": "media/00014626/floorless_20261024T092317Z_h-7c631253dd_g-aca173391e/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "人体修正版 · G1 tracking"
     },
@@ -526,11 +364,11 @@
       "feedback_no": 10,
       "new100_index": 70,
       "contributor_id": "agent_B",
-      "pair_version": "b002_h-7f18fa0f503f_g-aa30ba67a010",
+      "pair_version": "floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d",
       "human": {
-        "path": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/human.mp4",
-        "sha256": "7f18fa0f503f9a5149e1dee4f7b89371230e129796d3123e3e5a97c132dd1e53",
-        "version": "b_grip_v002",
+        "path": "media/00015138/floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d/human.mp4",
+        "sha256": "92249dd453f0c4a85074fc0050058ca7cce30f87d53ef381be6a7658f95423d1",
+        "version": "b_grip_v002+floorless",
         "frame_count": 135,
         "fps": "30/1",
         "width": 512,
@@ -540,9 +378,9 @@
         "motion_kind": "smplx_derived"
       },
       "g1": {
-        "path": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/g1.mp4",
-        "sha256": "aa30ba67a0102da7c6ad6fdd6d92b9bcc535fc358f8fd58607d010a68087289c",
-        "version": "b_grip_v001",
+        "path": "media/00015138/floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d/g1.mp4",
+        "sha256": "2d3c0a411dabf94354c919841930a6d959249799fbf692bad03ecc2bdb4773af",
+        "version": "b_grip_v001+floorless",
         "frame_count": 135,
         "fps": "30/1",
         "width": 512,
@@ -551,7 +389,7 @@
         "pts_origin_s": 0.0,
         "motion_kind": "tracking"
       },
-      "poster_path": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/poster.jpg",
+      "poster_path": "media/00015138/floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -560,9 +398,9 @@
           4.5
         ]
       },
-      "source_url": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/source.mp4",
-      "details_url": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/details.html",
-      "provenance_path": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/provenance.json",
+      "source_url": "media/00015138/floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d/source.mp4",
+      "details_url": "media/00015138/floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d/details.html",
+      "provenance_path": "media/00015138/floorless_20261024T092317Z_h-92249dd453_g-2d3c0a411d/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "人体修正版 · G1 tracking"
     },
@@ -577,11 +415,11 @@
       "feedback_no": 13,
       "new100_index": 93,
       "contributor_id": "agent_B",
-      "pair_version": "b002_h-ae95d4687267_g-19da06d1dc20",
+      "pair_version": "floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84",
       "human": {
-        "path": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/human.mp4",
-        "sha256": "ae95d4687267f308b34b11d6169e512f4e397c720bfdf3e922f6aa8d66928634",
-        "version": "b_grip_v002",
+        "path": "media/00018909/floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84/human.mp4",
+        "sha256": "68f37209abe36b919e16cbd3592a227eedada2a78c1b58c9bc79f1eded1eea92",
+        "version": "b_grip_v002+floorless",
         "frame_count": 241,
         "fps": "30/1",
         "width": 512,
@@ -591,9 +429,9 @@
         "motion_kind": "smplx_derived"
       },
       "g1": {
-        "path": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/g1.mp4",
-        "sha256": "19da06d1dc200c5bcdab30225250d44d9c07f08252110f2832179b71e6eaaee7",
-        "version": "b_grip_v002",
+        "path": "media/00018909/floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84/g1.mp4",
+        "sha256": "a8fd347a8415fbac49d4a410f9c7f7357199ed6e10eee47b6c01e91a4d1df273",
+        "version": "b_grip_v002+floorless",
         "frame_count": 241,
         "fps": "30/1",
         "width": 512,
@@ -602,7 +440,7 @@
         "pts_origin_s": 0.0,
         "motion_kind": "tracking_derived_kinematic"
       },
-      "poster_path": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/poster.jpg",
+      "poster_path": "media/00018909/floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -611,9 +449,9 @@
           8.033333
         ]
       },
-      "source_url": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/source.mp4",
-      "details_url": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/details.html",
-      "provenance_path": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/provenance.json",
+      "source_url": "media/00018909/floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84/source.mp4",
+      "details_url": "media/00018909/floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84/details.html",
+      "provenance_path": "media/00018909/floorless_20261024T092317Z_h-68f37209ab_g-a8fd347a84/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "G1 运动学修正版"
     },
@@ -628,11 +466,11 @@
       "collection": "original_15",
       "feedback_no": 1,
       "new100_index": null,
-      "pair_version": "candidate_19_h-61bccff130ac_g-57269b3e0317",
+      "pair_version": "floorless_20261024T092317Z_h-ad953baf3a_g-60084bd218",
       "human": {
-        "path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/human.mp4",
-        "sha256": "61bccff130ac89da8b4578cb0ca6d6ff51364a9bf264d7362c9287f8272f59bc",
-        "version": "candidate_19",
+        "path": "media/00065643/floorless_20261024T092317Z_h-ad953baf3a_g-60084bd218/human.mp4",
+        "sha256": "ad953baf3a0a8d52b87844a973e0ebe8f702e6797e051b3e933a038eb822db41",
+        "version": "candidate_19+floorless",
         "frame_count": 101,
         "width": 512,
         "height": 512,
@@ -644,9 +482,9 @@
         "motion_kind": "smplx_derived"
       },
       "g1": {
-        "path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/g1.mp4",
-        "sha256": "57269b3e031772ca7a78645497be3e14c2d2c569e6a118f66e1d6a842b59cf15",
-        "version": "candidate_19",
+        "path": "media/00065643/floorless_20261024T092317Z_h-ad953baf3a_g-60084bd218/g1.mp4",
+        "sha256": "60084bd218a0065c2534aa35197b85f696930b5d85b25c11e9d8354be3d6bf75",
+        "version": "candidate_19+floorless",
         "frame_count": 101,
         "width": 512,
         "height": 512,
@@ -657,7 +495,7 @@
         "pts_origin_s": 0.0,
         "motion_kind": "tracking_derived_kinematic"
       },
-      "poster_path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/poster.jpg",
+      "poster_path": "media/00065643/floorless_20261024T092317Z_h-ad953baf3a_g-60084bd218/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -666,9 +504,9 @@
           3.366667
         ]
       },
-      "source_url": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/source.mp4",
-      "details_url": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/details.html",
-      "provenance_path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/provenance.json",
+      "source_url": "media/00065643/floorless_20261024T092317Z_h-ad953baf3a_g-60084bd218/source.mp4",
+      "details_url": "media/00065643/floorless_20261024T092317Z_h-ad953baf3a_g-60084bd218/details.html",
+      "provenance_path": "media/00065643/floorless_20261024T092317Z_h-ad953baf3a_g-60084bd218/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "G1 派生运动学回放"
     },
@@ -683,11 +521,11 @@
       "collection": "original_15",
       "feedback_no": 5,
       "new100_index": null,
-      "pair_version": "candidate_10_h-2238014c20c6_g-0b44b269bb15",
+      "pair_version": "floorless_20261024T092317Z_h-88c4f0574d_g-3653b661ec",
       "human": {
-        "path": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/human.mp4",
-        "sha256": "2238014c20c6a35a88a78a89d66320f2d256246fcdc5a390261b2f1341e65a8c",
-        "version": "candidate_09_reused_in_candidate_10",
+        "path": "media/00025620/floorless_20261024T092317Z_h-88c4f0574d_g-3653b661ec/human.mp4",
+        "sha256": "88c4f0574d0aad1d8217cfc556fa0e6cf77f9dcc3992903ad727e2e70986a613",
+        "version": "candidate_09_reused_in_candidate_10+floorless",
         "frame_count": 100,
         "width": 512,
         "height": 512,
@@ -699,9 +537,9 @@
         "motion_kind": "smplx_derived"
       },
       "g1": {
-        "path": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/g1.mp4",
-        "sha256": "0b44b269bb15b7b4f2bec4102561c62516b16a89e10a11f3f4b11bd98b9a2e81",
-        "version": "candidate_10",
+        "path": "media/00025620/floorless_20261024T092317Z_h-88c4f0574d_g-3653b661ec/g1.mp4",
+        "sha256": "3653b661ec60567aa9e51bd0bfc9e6ef89a6b85620e8e6df77e260b0e198841e",
+        "version": "candidate_10+floorless",
         "frame_count": 100,
         "width": 512,
         "height": 512,
@@ -712,7 +550,7 @@
         "pts_origin_s": 0.0,
         "motion_kind": "tracking_derived_kinematic"
       },
-      "poster_path": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/poster.jpg",
+      "poster_path": "media/00025620/floorless_20261024T092317Z_h-88c4f0574d_g-3653b661ec/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -721,9 +559,9 @@
           3.333333
         ]
       },
-      "source_url": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/source.mp4",
-      "details_url": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/details.html",
-      "provenance_path": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/provenance.json",
+      "source_url": "media/00025620/floorless_20261024T092317Z_h-88c4f0574d_g-3653b661ec/source.mp4",
+      "details_url": "media/00025620/floorless_20261024T092317Z_h-88c4f0574d_g-3653b661ec/details.html",
+      "provenance_path": "media/00025620/floorless_20261024T092317Z_h-88c4f0574d_g-3653b661ec/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "G1 派生运动学回放"
     },
@@ -738,11 +576,11 @@
       "collection": "new_100",
       "feedback_no": 12,
       "new100_index": 98,
-      "pair_version": "candidate_19_h-7d586b7af4ba_g-0b791b336ecb",
+      "pair_version": "floorless_20261024T092317Z_h-f4ce4ccbba_g-840879959a",
       "human": {
-        "path": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/human.mp4",
-        "sha256": "7d586b7af4ba46eb6ce6a4c26baba39dc65219763ffabb1b08f03813ee5d79a4",
-        "version": "candidate_19",
+        "path": "media/00040272/floorless_20261024T092317Z_h-f4ce4ccbba_g-840879959a/human.mp4",
+        "sha256": "f4ce4ccbbab52c577edd931b2ec629de4bf10f815c2f21d708e7f3c8d1ff9f6e",
+        "version": "candidate_19+floorless",
         "frame_count": 110,
         "width": 512,
         "height": 512,
@@ -754,9 +592,9 @@
         "motion_kind": "smplx_derived"
       },
       "g1": {
-        "path": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/g1.mp4",
-        "sha256": "0b791b336ecbcb148e657e892bb1e72c94e2c6f7a3ef38a9c4e743aaf06fb699",
-        "version": "candidate_19",
+        "path": "media/00040272/floorless_20261024T092317Z_h-f4ce4ccbba_g-840879959a/g1.mp4",
+        "sha256": "840879959a02586972bfe71bc3ceff4f68471d9b77346d81b619c424bea32146",
+        "version": "candidate_19+floorless",
         "frame_count": 110,
         "width": 512,
         "height": 512,
@@ -767,7 +605,7 @@
         "pts_origin_s": 0.0,
         "motion_kind": "tracking_derived_kinematic"
       },
-      "poster_path": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/poster.jpg",
+      "poster_path": "media/00040272/floorless_20261024T092317Z_h-f4ce4ccbba_g-840879959a/poster.jpg",
       "timing": {
         "mode": "shared_output_clock",
         "mapping_path": null,
@@ -776,12 +614,12 @@
           3.666667
         ]
       },
-      "source_url": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/source.mp4",
-      "details_url": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/details.html",
-      "provenance_path": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/provenance.json",
+      "source_url": "media/00040272/floorless_20261024T092317Z_h-f4ce4ccbba_g-840879959a/source.mp4",
+      "details_url": "media/00040272/floorless_20261024T092317Z_h-f4ce4ccbba_g-840879959a/details.html",
+      "provenance_path": "media/00040272/floorless_20261024T092317Z_h-f4ce4ccbba_g-840879959a/provenance.json",
       "quality_status": "needs_review",
       "quality_note": "G1 派生运动学回放"
     }
   ],
-  "updated_at": "2026-10-24T08:08:15.576307+00:00"
+  "updated_at": "2026-10-24T09:32:24.921092+00:00"
 }

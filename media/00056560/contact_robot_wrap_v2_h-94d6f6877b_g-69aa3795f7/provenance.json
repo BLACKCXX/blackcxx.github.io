@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:d3uu7C26flM_00002_0_261",
+  "sample_id": "00056560",
+  "sample_name": "d3uu7C26flM_00002_0_261",
+  "dataset_repo": "wendell0218/Movens-5M",
+  "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+  "pair_version": "contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7",
+  "media": {
+    "human": {
+      "frame_count": 261,
+      "width": 512,
+      "height": 512,
+      "duration_s": 8.7,
+      "fps": "30/1",
+      "pts_origin_s": 0.0,
+      "path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/human.mp4",
+      "sha256": "94d6f6877bc45acc60c85be3b397c6756a3c2d554fd1306cf236891810cfc37e",
+      "version": "contact_robot_wrap_v2",
+      "motion_kind": "smplx"
+    },
+    "g1": {
+      "frame_count": 261,
+      "width": 512,
+      "height": 512,
+      "duration_s": 8.7,
+      "fps": "30/1",
+      "pts_origin_s": 0.0,
+      "path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/g1.mp4",
+      "sha256": "69aa3795f7bdbdf85b43e20354dd941011e0f082ed91324d8be2a8e5e8fcac0d",
+      "version": "contact_robot_wrap_v2",
+      "motion_kind": "derived_kinematic"
+    }
+  },
+  "timing": {
+    "mode": "shared_output_clock",
+    "mapping_path": null,
+    "valid_interval_s": [
+      0,
+      8.7
+    ]
+  },
+  "quality_status": "needs_review",
+  "quality_note": "G1 运动学修正版",
+  "export_note": "Static export of the exact Final media bytes; no new motion quality validation. Detailed private history remains in the source project."
+}

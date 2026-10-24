@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:b6sxObZ5LTI_00014_0_101",
+  "sample_id": "00065643",
+  "sample_name": "b6sxObZ5LTI_00014_0_101",
+  "dataset_repo": "wendell0218/Movens-5M",
+  "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+  "pair_version": "candidate_19_h-61bccff130ac_g-57269b3e0317",
+  "media": {
+    "human": {
+      "path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/human.mp4",
+      "sha256": "61bccff130ac89da8b4578cb0ca6d6ff51364a9bf264d7362c9287f8272f59bc",
+      "version": "candidate_19",
+      "frame_count": 101,
+      "width": 512,
+      "height": 512,
+      "duration_s": 3.366667,
+      "fps": "30/1",
+      "time_base": "1/15360",
+      "first_pts": 0,
+      "pts_origin_s": 0.0,
+      "motion_kind": "smplx_derived"
+    },
+    "g1": {
+      "path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/g1.mp4",
+      "sha256": "57269b3e031772ca7a78645497be3e14c2d2c569e6a118f66e1d6a842b59cf15",
+      "version": "candidate_19",
+      "frame_count": 101,
+      "width": 512,
+      "height": 512,
+      "duration_s": 3.366667,
+      "fps": "30/1",
+      "time_base": "1/15360",
+      "first_pts": 0,
+      "pts_origin_s": 0.0,
+      "motion_kind": "tracking_derived_kinematic"
+    }
+  },
+  "timing": {
+    "mode": "shared_output_clock",
+    "mapping_path": null,
+    "valid_interval_s": [
+      0,
+      3.366667
+    ]
+  },
+  "quality_status": "needs_review",
+  "quality_note": "G1 派生运动学回放",
+  "export_note": "Static export of the exact Final media bytes; no new motion quality validation. Detailed private history remains in the source project."
+}

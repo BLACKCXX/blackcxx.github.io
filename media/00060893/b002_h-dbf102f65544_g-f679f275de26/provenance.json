@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:SxjAiR197cE_00001_0_108",
+  "sample_id": "00060893",
+  "sample_name": "SxjAiR197cE_00001_0_108",
+  "dataset_repo": "wendell0218/Movens-5M",
+  "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+  "pair_version": "b002_h-dbf102f65544_g-f679f275de26",
+  "media": {
+    "human": {
+      "path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/human.mp4",
+      "sha256": "dbf102f655442f8ae212cf4b509b95fc5047b3dc5d1f550725aaaeeb0e9880b3",
+      "version": "b_grip_v002",
+      "frame_count": 107,
+      "fps": "30/1",
+      "width": 512,
+      "height": 512,
+      "duration_s": 3.566667,
+      "pts_origin_s": 0.0,
+      "motion_kind": "smplx_derived"
+    },
+    "g1": {
+      "path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/g1.mp4",
+      "sha256": "f679f275de26cbf9bf9e05416e82c926b56aba694fb68a56d1d861fb703c21af",
+      "version": "b_grip_v001",
+      "frame_count": 107,
+      "fps": "30/1",
+      "width": 512,
+      "height": 512,
+      "duration_s": 3.566667,
+      "pts_origin_s": 0.0,
+      "motion_kind": "tracking_derived_kinematic"
+    }
+  },
+  "timing": {
+    "mode": "shared_output_clock",
+    "mapping_path": null,
+    "valid_interval_s": [
+      0,
+      3.566667
+    ]
+  },
+  "quality_status": "needs_review",
+  "quality_note": "G1 运动学修正版",
+  "export_note": "Static export of the exact Final media bytes; no new motion quality validation. Detailed private history remains in the source project."
+}

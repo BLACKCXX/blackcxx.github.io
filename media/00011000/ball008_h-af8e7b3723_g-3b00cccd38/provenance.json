@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:EWZcvbZ0GAg_00006_0_79",
+  "sample_id": "00011000",
+  "sample_name": "EWZcvbZ0GAg_00006_0_79",
+  "dataset_repo": "wendell0218/Movens-5M",
+  "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+  "pair_version": "ball008_h-af8e7b3723_g-3b00cccd38",
+  "media": {
+    "human": {
+      "path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/human.mp4",
+      "sha256": "af8e7b3723746aede0fe73df8f0e3f361066359098d93492975e73321ff89b02",
+      "version": "candidate_ball_007",
+      "frame_count": 79,
+      "fps": "30/1",
+      "width": 512,
+      "height": 512,
+      "duration_s": 2.633333,
+      "pts_origin_s": 0.0,
+      "motion_kind": "smplx"
+    },
+    "g1": {
+      "path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/g1.mp4",
+      "sha256": "3b00cccd3865c1084a8351747bfff924c3be9dd4992bb720e73b089cc8329778",
+      "version": "candidate_ball_008",
+      "frame_count": 79,
+      "fps": "30/1",
+      "width": 512,
+      "height": 512,
+      "duration_s": 2.633333,
+      "pts_origin_s": 0.0,
+      "motion_kind": "derived_kinematic"
+    }
+  },
+  "timing": {
+    "mode": "shared_output_clock",
+    "mapping_path": null,
+    "valid_interval_s": [
+      0,
+      2.633333
+    ]
+  },
+  "quality_status": "targeted_repairs_implemented_and_reviewed",
+  "quality_note": "G1 运动学修正版",
+  "export_note": "Static export of the exact Final media bytes; no new motion quality validation. Detailed private history remains in the source project."
+}

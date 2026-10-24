@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f9"><link rel="icon" href="data:,">
+  <title>Movens-Zero · Final</title><link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+  <header>
+    <div><p class="eyebrow">HUMAN MOTION → HUMANOID MOTION</p><h1>Movens-Zero<span class="dot">.</span> <span class="final-title">Final</span></h1><p class="subtitle">精修动作对照 · <span id="sample-count">加载中</span></p></div>
+    <div class="guide"><div class="legend"><span class="robot-dot"></span> 默认 Humanoid / G1 <span class="human-dot"></span> 悬停查看人体</div><p>同一卡片，同一时刻。触屏与键盘可使用切换按钮。</p><button id="pause-all" type="button" aria-pressed="false">暂停全部</button></div>
+  </header>
+  <main><div id="gallery" class="gallery" aria-label="最终动作对照"></div><p id="load-error" role="alert" hidden>动作列表未能加载，请刷新页面重试。</p><p id="empty" hidden>暂无已汇总的成果。</p></main>
+  <footer><span>SMPL-X / Unitree G1</span><span>原视频与修复说明可从每张卡片下方查看。</span></footer>
+  <script type="module" src="app.js?v=2"></script>
+</body>
+</html>

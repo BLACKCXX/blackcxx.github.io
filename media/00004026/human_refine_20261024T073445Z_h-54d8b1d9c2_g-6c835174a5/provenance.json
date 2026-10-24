@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:00004026_douyin_0604_movies_009410_0060",
+  "sample_id": "00004026",
+  "sample_name": "00004026_douyin_0604_movies_009410_0060",
+  "dataset_repo": "wendell0218/Movens-5M",
+  "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+  "pair_version": "human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5",
+  "media": {
+    "human": {
+      "frame_count": 335,
+      "width": 512,
+      "height": 512,
+      "duration_s": 11.166667,
+      "fps": "30/1",
+      "pts_origin_s": 0.0,
+      "path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/human.mp4",
+      "sha256": "54d8b1d9c2cc2e9fc34d064b24213bae68cca80341b3deaeaf93f3d5d91932d0",
+      "version": "human_refine_20261024T073445Z_candidate_v2",
+      "motion_kind": "smplx"
+    },
+    "g1": {
+      "frame_count": 335,
+      "width": 512,
+      "height": 512,
+      "duration_s": 11.166667,
+      "fps": "30/1",
+      "pts_origin_s": 0.0,
+      "path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/g1.mp4",
+      "sha256": "6c835174a57fff9d0b7af095c74439dff44cc6e04feeb8c0313dc511f931cc0e",
+      "version": "baseline_20261024T0031Z",
+      "motion_kind": "tracking_preserved"
+    }
+  },
+  "timing": {
+    "mode": "shared_output_clock",
+    "mapping_path": null,
+    "valid_interval_s": [
+      0,
+      11.166667
+    ]
+  },
+  "quality_status": "targeted_human_frame_reviewed_with_known_limits",
+  "quality_note": "G1 保留原版本 · 人体局部修正",
+  "export_note": "Static export of the exact Final media bytes; no new motion quality validation. Detailed private history remains in the source project."
+}

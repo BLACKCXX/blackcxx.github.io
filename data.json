@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "revision": 7,
+  "samples": [
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:EWZcvbZ0GAg_00006_0_79",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00011000",
+      "sample_name": "EWZcvbZ0GAg_00006_0_79",
+      "title": "捡球与抛球",
+      "collection": "original_15",
+      "original_index": 1,
+      "contributor_id": "all115_20261023T102134Z_ball",
+      "pair_version": "ball008_h-af8e7b3723_g-3b00cccd38",
+      "human": {
+        "path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/human.mp4",
+        "sha256": "af8e7b3723746aede0fe73df8f0e3f361066359098d93492975e73321ff89b02",
+        "version": "candidate_ball_007",
+        "frame_count": 79,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 2.633333,
+        "pts_origin_s": 0.0,
+        "motion_kind": "smplx"
+      },
+      "g1": {
+        "path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/g1.mp4",
+        "sha256": "3b00cccd3865c1084a8351747bfff924c3be9dd4992bb720e73b089cc8329778",
+        "version": "candidate_ball_008",
+        "frame_count": 79,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 2.633333,
+        "pts_origin_s": 0.0,
+        "motion_kind": "derived_kinematic"
+      },
+      "poster_path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          2.633333
+        ]
+      },
+      "source_url": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/source.mp4",
+      "details_url": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/details.html",
+      "provenance_path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/provenance.json",
+      "quality_status": "targeted_repairs_implemented_and_reviewed",
+      "quality_note": "G1 运动学修正版",
+      "presentation": {
+        "kind": "packed_pair",
+        "path": "media/00011000/ball008_h-af8e7b3723_g-3b00cccd38/pair.mp4",
+        "sha256": "f892da633901ffdbc8a3b167a7287c66637c446225a42c245ba57ecfa5cd22e1",
+        "layout": {
+          "human": "left",
+          "g1": "right"
+        },
+        "pane_width": 512,
+        "pane_height": 512
+      }
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:d3uu7C26flM_00002_0_261",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00056560",
+      "sample_name": "d3uu7C26flM_00002_0_261",
+      "title": "壶铃摆动",
+      "collection": "original_15",
+      "contributor_id": "agent_C",
+      "pair_version": "contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7",
+      "human": {
+        "frame_count": 261,
+        "width": 512,
+        "height": 512,
+        "duration_s": 8.7,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/human.mp4",
+        "sha256": "94d6f6877bc45acc60c85be3b397c6756a3c2d554fd1306cf236891810cfc37e",
+        "version": "contact_robot_wrap_v2",
+        "motion_kind": "smplx"
+      },
+      "g1": {
+        "frame_count": 261,
+        "width": 512,
+        "height": 512,
+        "duration_s": 8.7,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/g1.mp4",
+        "sha256": "69aa3795f7bdbdf85b43e20354dd941011e0f082ed91324d8be2a8e5e8fcac0d",
+        "version": "contact_robot_wrap_v2",
+        "motion_kind": "derived_kinematic"
+      },
+      "poster_path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          8.7
+        ]
+      },
+      "source_url": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/source.mp4",
+      "details_url": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/details.html",
+      "provenance_path": "media/00056560/contact_robot_wrap_v2_h-94d6f6877b_g-69aa3795f7/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "G1 运动学修正版"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:00004026_douyin_0604_movies_009410_0060",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00004026",
+      "sample_name": "00004026_douyin_0604_movies_009410_0060",
+      "title": "蓝壶铃侧向摆动",
+      "collection": "new_100",
+      "contributor_id": "targeted_human_20261024T073445Z",
+      "pair_version": "human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5",
+      "human": {
+        "frame_count": 335,
+        "width": 512,
+        "height": 512,
+        "duration_s": 11.166667,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/human.mp4",
+        "sha256": "54d8b1d9c2cc2e9fc34d064b24213bae68cca80341b3deaeaf93f3d5d91932d0",
+        "version": "human_refine_20261024T073445Z_candidate_v2",
+        "motion_kind": "smplx"
+      },
+      "g1": {
+        "frame_count": 335,
+        "width": 512,
+        "height": 512,
+        "duration_s": 11.166667,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/g1.mp4",
+        "sha256": "6c835174a57fff9d0b7af095c74439dff44cc6e04feeb8c0313dc511f931cc0e",
+        "version": "baseline_20261024T0031Z",
+        "motion_kind": "tracking_preserved"
+      },
+      "poster_path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          11.166667
+        ]
+      },
+      "source_url": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/source.mp4",
+      "details_url": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/details.html",
+      "provenance_path": "media/00004026/human_refine_20261024T073445Z_h-54d8b1d9c2_g-6c835174a5/provenance.json",
+      "quality_status": "targeted_human_frame_reviewed_with_known_limits",
+      "quality_note": "G1 保留原版本 · 人体局部修正",
+      "previous_contributor_id": "agent_C"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:RvjfOJXno5w_00033_0_126",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00070479",
+      "sample_name": "RvjfOJXno5w_00033_0_126",
+      "title": "俯身取哑铃",
+      "collection": "original_15",
+      "contributor_id": "targeted_human_20261024T073445Z",
+      "pair_version": "human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3",
+      "human": {
+        "frame_count": 157,
+        "width": 512,
+        "height": 512,
+        "duration_s": 5.233333,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/human.mp4",
+        "sha256": "27562a6e66452c374fa9a5dc6d4aa607fe2f7ed1d81f76fe37f7b6e100c4eb36",
+        "version": "human_refine_20261024T073445Z_candidate_v1",
+        "motion_kind": "smplx"
+      },
+      "g1": {
+        "frame_count": 157,
+        "width": 512,
+        "height": 512,
+        "duration_s": 5.233333,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/g1.mp4",
+        "sha256": "c65c66e5c3e0225bdbabda404c5220366b16eca3b677799a6bc5814e06b2bcd4",
+        "version": "contact_db_posture_v1",
+        "motion_kind": "derived_kinematic"
+      },
+      "poster_path": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          5.233333
+        ]
+      },
+      "source_url": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/source.mp4",
+      "details_url": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/details.html",
+      "provenance_path": "media/00070479/human_refine_20261024T073445Z_h-27562a6e66_g-c65c66e5c3/provenance.json",
+      "quality_status": "targeted_human_frame_reviewed_with_known_limits",
+      "quality_note": "G1 运动学修正版 · 人体局部修正",
+      "previous_contributor_id": "agent_C"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:UJyDXgxYazQ_00005_0_141",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_name": "UJyDXgxYazQ_00005_0_141",
+      "cohort": "new_100",
+      "sample_id": "00060782",
+      "title": "举黄筐倾倒",
+      "collection": "new_100",
+      "contributor_id": "agent_D",
+      "pair_version": "candidate_10_h-4eb5986975_g-fee3254ee1",
+      "human": {
+        "frame_count": 169,
+        "width": 768,
+        "height": 768,
+        "duration_s": 5.633333,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/human.mp4",
+        "sha256": "4eb598697568ef2ceb2a4b871525fdefb20e1efc0e3f649f2c8da6ff86006c51",
+        "version": "candidate_10",
+        "motion_kind": "smplx"
+      },
+      "g1": {
+        "frame_count": 169,
+        "width": 768,
+        "height": 768,
+        "duration_s": 5.633333,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/g1.mp4",
+        "sha256": "fee3254ee1de67ca32b1a6ff1eee38b22f8ec16f88766830fbdc33c279a7f181",
+        "version": "candidate_10",
+        "motion_kind": "derived_kinematic"
+      },
+      "poster_path": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          5.633333
+        ]
+      },
+      "source_url": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/source.mp4",
+      "details_url": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/details.html",
+      "provenance_path": "media/00060782/candidate_10_h-4eb5986975_g-fee3254ee1/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "G1 运动学修正版"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:_TLCZy-UlRk_00002_138_225",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_name": "_TLCZy-UlRk_00002_138_225",
+      "cohort": "new_100",
+      "sample_id": "00004987",
+      "title": "搬放花盆",
+      "collection": "new_100",
+      "contributor_id": "agent_D",
+      "pair_version": "candidate_12_h-890ce89639_g-6586a24a44",
+      "human": {
+        "frame_count": 87,
+        "width": 768,
+        "height": 768,
+        "duration_s": 2.9,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/human.mp4",
+        "sha256": "890ce8963931b38bf87867a6355d9148f853a235ab11fd51c51835fc4bc193d8",
+        "version": "candidate_11",
+        "motion_kind": "smplx"
+      },
+      "g1": {
+        "frame_count": 87,
+        "width": 768,
+        "height": 768,
+        "duration_s": 2.9,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/g1.mp4",
+        "sha256": "6586a24a4496a9f02c300495dc13dd2767479f64a30e07f055459cdf9d954861",
+        "version": "candidate_12",
+        "motion_kind": "derived_kinematic"
+      },
+      "poster_path": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          2.9
+        ]
+      },
+      "source_url": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/source.mp4",
+      "details_url": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/details.html",
+      "provenance_path": "media/00004987/candidate_12_h-890ce89639_g-6586a24a44/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "G1 运动学修正版"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:uA7Ye9jqPi4_00013_0_179",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_name": "uA7Ye9jqPi4_00013_0_179",
+      "cohort": "new_100",
+      "sample_id": "00041913",
+      "title": "扛长管行走",
+      "collection": "new_100",
+      "contributor_id": "targeted_human_20261024T073445Z",
+      "pair_version": "human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7",
+      "human": {
+        "frame_count": 179,
+        "width": 768,
+        "height": 768,
+        "duration_s": 5.966667,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/human.mp4",
+        "sha256": "e9eb0c674b858282733c64284b9e1e7822192fced09b798f425431b4a414f25d",
+        "version": "human_refine_20261024T073445Z_candidate_v1",
+        "motion_kind": "smplx"
+      },
+      "g1": {
+        "frame_count": 179,
+        "width": 768,
+        "height": 768,
+        "duration_s": 5.966667,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/g1.mp4",
+        "sha256": "7292a71eb79bb6f82a62a092777685466e0c50a48d2ab3c2fdd6cd8e0d344d7d",
+        "version": "candidate_11",
+        "motion_kind": "derived_kinematic"
+      },
+      "poster_path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          5.966667
+        ]
+      },
+      "source_url": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/source.mp4",
+      "details_url": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/details.html",
+      "provenance_path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/provenance.json",
+      "quality_status": "targeted_human_frame_reviewed_with_known_limits",
+      "quality_note": "G1 运动学修正版 · 人体局部修正",
+      "previous_contributor_id": "agent_D"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:cZZvNB66wBM_00007_0_84",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_name": "cZZvNB66wBM_00007_0_84",
+      "cohort": "original_15",
+      "sample_id": "00047208",
+      "title": "搬放圆凳",
+      "collection": "original_15",
+      "contributor_id": "agent_D",
+      "pair_version": "candidate_10_h-0230e4a91a_g-e1283e4dab",
+      "human": {
+        "frame_count": 84,
+        "width": 768,
+        "height": 768,
+        "duration_s": 2.8,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/human.mp4",
+        "sha256": "0230e4a91a05edae60d3dc540b187982587abd40f95df8f89ba845df1b506a79",
+        "version": "candidate_09",
+        "motion_kind": "smplx"
+      },
+      "g1": {
+        "frame_count": 84,
+        "width": 768,
+        "height": 768,
+        "duration_s": 2.8,
+        "fps": "30/1",
+        "pts_origin_s": 0.0,
+        "path": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/g1.mp4",
+        "sha256": "e1283e4dab107e769e50b16b120eb31249cb5f81d261876203df219c2737f729",
+        "version": "candidate_10",
+        "motion_kind": "derived_kinematic"
+      },
+      "poster_path": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          2.8
+        ]
+      },
+      "source_url": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/source.mp4",
+      "details_url": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/details.html",
+      "provenance_path": "media/00047208/candidate_10_h-0230e4a91a_g-e1283e4dab/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "G1 运动学修正版"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:SxjAiR197cE_00001_0_108",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00060893",
+      "sample_name": "SxjAiR197cE_00001_0_108",
+      "title": "负重行走",
+      "collection": "original_15",
+      "feedback_no": 2,
+      "new100_index": null,
+      "contributor_id": "agent_B",
+      "pair_version": "b002_h-dbf102f65544_g-f679f275de26",
+      "human": {
+        "path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/human.mp4",
+        "sha256": "dbf102f655442f8ae212cf4b509b95fc5047b3dc5d1f550725aaaeeb0e9880b3",
+        "version": "b_grip_v002",
+        "frame_count": 107,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.566667,
+        "pts_origin_s": 0.0,
+        "motion_kind": "smplx_derived"
+      },
+      "g1": {
+        "path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/g1.mp4",
+        "sha256": "f679f275de26cbf9bf9e05416e82c926b56aba694fb68a56d1d861fb703c21af",
+        "version": "b_grip_v001",
+        "frame_count": 107,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.566667,
+        "pts_origin_s": 0.0,
+        "motion_kind": "tracking_derived_kinematic"
+      },
+      "poster_path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          3.566667
+        ]
+      },
+      "source_url": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/source.mp4",
+      "details_url": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/details.html",
+      "provenance_path": "media/00060893/b002_h-dbf102f65544_g-f679f275de26/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "G1 运动学修正版"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:00014626_YouTube-Dance_movies_f-eLxM1TJ_8_0001",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00014626",
+      "sample_name": "00014626_YouTube-Dance_movies_f-eLxM1TJ_8_0001",
+      "title": "单侧持重旋转出拳",
+      "collection": "new_100",
+      "feedback_no": 9,
+      "new100_index": 63,
+      "contributor_id": "agent_B",
+      "pair_version": "b002_h-a7dd8bd043fd_g-10f39a60e502",
+      "human": {
+        "path": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/human.mp4",
+        "sha256": "a7dd8bd043fd4566e91c9699f2ecbb08865fb0267a1062069e7f7d39bba2e06b",
+        "version": "b_grip_v002",
+        "frame_count": 94,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.133333,
+        "pts_origin_s": 0.0,
+        "motion_kind": "smplx_derived"
+      },
+      "g1": {
+        "path": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/g1.mp4",
+        "sha256": "10f39a60e502ee6c8cb1f169a97f5d8655032a2b85ccdc76ba5d38ff5b803d04",
+        "version": "b_grip_v001",
+        "frame_count": 94,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.133333,
+        "pts_origin_s": 0.0,
+        "motion_kind": "tracking"
+      },
+      "poster_path": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          3.133333
+        ]
+      },
+      "source_url": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/source.mp4",
+      "details_url": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/details.html",
+      "provenance_path": "media/00014626/b002_h-a7dd8bd043fd_g-10f39a60e502/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "人体修正版 · G1 tracking"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:00015138_YouTube-Dance_movies_YEyFdtni3uU_0003",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00015138",
+      "sample_name": "00015138_YouTube-Dance_movies_YEyFdtni3uU_0003",
+      "title": "弯举接俯身飞鸟",
+      "collection": "new_100",
+      "feedback_no": 10,
+      "new100_index": 70,
+      "contributor_id": "agent_B",
+      "pair_version": "b002_h-7f18fa0f503f_g-aa30ba67a010",
+      "human": {
+        "path": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/human.mp4",
+        "sha256": "7f18fa0f503f9a5149e1dee4f7b89371230e129796d3123e3e5a97c132dd1e53",
+        "version": "b_grip_v002",
+        "frame_count": 135,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 4.5,
+        "pts_origin_s": 0.0,
+        "motion_kind": "smplx_derived"
+      },
+      "g1": {
+        "path": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/g1.mp4",
+        "sha256": "aa30ba67a0102da7c6ad6fdd6d92b9bcc535fc358f8fd58607d010a68087289c",
+        "version": "b_grip_v001",
+        "frame_count": 135,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 4.5,
+        "pts_origin_s": 0.0,
+        "motion_kind": "tracking"
+      },
+      "poster_path": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          4.5
+        ]
+      },
+      "source_url": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/source.mp4",
+      "details_url": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/details.html",
+      "provenance_path": "media/00015138/b002_h-7f18fa0f503f_g-aa30ba67a010/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "人体修正版 · G1 tracking"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:jDYwk5mAwmc_00027_0_241",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00018909",
+      "sample_name": "jDYwk5mAwmc_00027_0_241",
+      "title": "杠铃罗马尼亚硬拉",
+      "collection": "new_100",
+      "feedback_no": 13,
+      "new100_index": 93,
+      "contributor_id": "agent_B",
+      "pair_version": "b002_h-ae95d4687267_g-19da06d1dc20",
+      "human": {
+        "path": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/human.mp4",
+        "sha256": "ae95d4687267f308b34b11d6169e512f4e397c720bfdf3e922f6aa8d66928634",
+        "version": "b_grip_v002",
+        "frame_count": 241,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 8.033333,
+        "pts_origin_s": 0.0,
+        "motion_kind": "smplx_derived"
+      },
+      "g1": {
+        "path": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/g1.mp4",
+        "sha256": "19da06d1dc200c5bcdab30225250d44d9c07f08252110f2832179b71e6eaaee7",
+        "version": "b_grip_v002",
+        "frame_count": 241,
+        "fps": "30/1",
+        "width": 512,
+        "height": 512,
+        "duration_s": 8.033333,
+        "pts_origin_s": 0.0,
+        "motion_kind": "tracking_derived_kinematic"
+      },
+      "poster_path": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          8.033333
+        ]
+      },
+      "source_url": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/source.mp4",
+      "details_url": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/details.html",
+      "provenance_path": "media/00018909/b002_h-ae95d4687267_g-19da06d1dc20/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "G1 运动学修正版"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:b6sxObZ5LTI_00014_0_101",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00065643",
+      "sample_name": "b6sxObZ5LTI_00014_0_101",
+      "title": "后撤弓步",
+      "contributor_id": "agent_A",
+      "collection": "original_15",
+      "feedback_no": 1,
+      "new100_index": null,
+      "pair_version": "candidate_19_h-61bccff130ac_g-57269b3e0317",
+      "human": {
+        "path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/human.mp4",
+        "sha256": "61bccff130ac89da8b4578cb0ca6d6ff51364a9bf264d7362c9287f8272f59bc",
+        "version": "candidate_19",
+        "frame_count": 101,
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.366667,
+        "fps": "30/1",
+        "time_base": "1/15360",
+        "first_pts": 0,
+        "pts_origin_s": 0.0,
+        "motion_kind": "smplx_derived"
+      },
+      "g1": {
+        "path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/g1.mp4",
+        "sha256": "57269b3e031772ca7a78645497be3e14c2d2c569e6a118f66e1d6a842b59cf15",
+        "version": "candidate_19",
+        "frame_count": 101,
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.366667,
+        "fps": "30/1",
+        "time_base": "1/15360",
+        "first_pts": 0,
+        "pts_origin_s": 0.0,
+        "motion_kind": "tracking_derived_kinematic"
+      },
+      "poster_path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          3.366667
+        ]
+      },
+      "source_url": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/source.mp4",
+      "details_url": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/details.html",
+      "provenance_path": "media/00065643/candidate_19_h-61bccff130ac_g-57269b3e0317/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "G1 派生运动学回放"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:sqhLOa7PtkU_00025_0_80",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00025620",
+      "sample_name": "sqhLOa7PtkU_00025_0_80",
+      "title": "药球上举",
+      "contributor_id": "agent_A",
+      "collection": "original_15",
+      "feedback_no": 5,
+      "new100_index": null,
+      "pair_version": "candidate_10_h-2238014c20c6_g-0b44b269bb15",
+      "human": {
+        "path": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/human.mp4",
+        "sha256": "2238014c20c6a35a88a78a89d66320f2d256246fcdc5a390261b2f1341e65a8c",
+        "version": "candidate_09_reused_in_candidate_10",
+        "frame_count": 100,
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.333333,
+        "fps": "30/1",
+        "time_base": "1/15360",
+        "first_pts": 0,
+        "pts_origin_s": 0.0,
+        "motion_kind": "smplx_derived"
+      },
+      "g1": {
+        "path": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/g1.mp4",
+        "sha256": "0b44b269bb15b7b4f2bec4102561c62516b16a89e10a11f3f4b11bd98b9a2e81",
+        "version": "candidate_10",
+        "frame_count": 100,
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.333333,
+        "fps": "30/1",
+        "time_base": "1/15360",
+        "first_pts": 0,
+        "pts_origin_s": 0.0,
+        "motion_kind": "tracking_derived_kinematic"
+      },
+      "poster_path": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          3.333333
+        ]
+      },
+      "source_url": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/source.mp4",
+      "details_url": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/details.html",
+      "provenance_path": "media/00025620/candidate_10_h-2238014c20c6_g-0b44b269bb15/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "G1 派生运动学回放"
+    },
+    {
+      "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:xYUBviHcrOI_00021_0_88",
+      "dataset_repo": "wendell0218/Movens-5M",
+      "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+      "sample_id": "00040272",
+      "sample_name": "xYUBviHcrOI_00021_0_88",
+      "title": "药球上抛/下砸",
+      "contributor_id": "agent_A",
+      "collection": "new_100",
+      "feedback_no": 12,
+      "new100_index": 98,
+      "pair_version": "candidate_19_h-7d586b7af4ba_g-0b791b336ecb",
+      "human": {
+        "path": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/human.mp4",
+        "sha256": "7d586b7af4ba46eb6ce6a4c26baba39dc65219763ffabb1b08f03813ee5d79a4",
+        "version": "candidate_19",
+        "frame_count": 110,
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.666667,
+        "fps": "30/1",
+        "time_base": "1/15360",
+        "first_pts": 0,
+        "pts_origin_s": 0.0,
+        "motion_kind": "smplx_derived"
+      },
+      "g1": {
+        "path": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/g1.mp4",
+        "sha256": "0b791b336ecbcb148e657e892bb1e72c94e2c6f7a3ef38a9c4e743aaf06fb699",
+        "version": "candidate_19",
+        "frame_count": 110,
+        "width": 512,
+        "height": 512,
+        "duration_s": 3.666667,
+        "fps": "30/1",
+        "time_base": "1/15360",
+        "first_pts": 0,
+        "pts_origin_s": 0.0,
+        "motion_kind": "tracking_derived_kinematic"
+      },
+      "poster_path": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/poster.jpg",
+      "timing": {
+        "mode": "shared_output_clock",
+        "mapping_path": null,
+        "valid_interval_s": [
+          0,
+          3.666667
+        ]
+      },
+      "source_url": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/source.mp4",
+      "details_url": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/details.html",
+      "provenance_path": "media/00040272/candidate_19_h-7d586b7af4ba_g-0b791b336ecb/provenance.json",
+      "quality_status": "needs_review",
+      "quality_note": "G1 派生运动学回放"
+    }
+  ],
+  "updated_at": "2026-10-24T08:08:15.576307+00:00"
+}

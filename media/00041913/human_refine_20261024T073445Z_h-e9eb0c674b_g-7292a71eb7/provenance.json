@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sample_key": "wendell0218/Movens-5M@99cd6644b5122650f65eed6e9848d4c0655bae7d:uA7Ye9jqPi4_00013_0_179",
+  "sample_id": "00041913",
+  "sample_name": "uA7Ye9jqPi4_00013_0_179",
+  "dataset_repo": "wendell0218/Movens-5M",
+  "dataset_revision": "99cd6644b5122650f65eed6e9848d4c0655bae7d",
+  "pair_version": "human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7",
+  "media": {
+    "human": {
+      "frame_count": 179,
+      "width": 768,
+      "height": 768,
+      "duration_s": 5.966667,
+      "fps": "30/1",
+      "pts_origin_s": 0.0,
+      "path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/human.mp4",
+      "sha256": "e9eb0c674b858282733c64284b9e1e7822192fced09b798f425431b4a414f25d",
+      "version": "human_refine_20261024T073445Z_candidate_v1",
+      "motion_kind": "smplx"
+    },
+    "g1": {
+      "frame_count": 179,
+      "width": 768,
+      "height": 768,
+      "duration_s": 5.966667,
+      "fps": "30/1",
+      "pts_origin_s": 0.0,
+      "path": "media/00041913/human_refine_20261024T073445Z_h-e9eb0c674b_g-7292a71eb7/g1.mp4",
+      "sha256": "7292a71eb79bb6f82a62a092777685466e0c50a48d2ab3c2fdd6cd8e0d344d7d",
+      "version": "candidate_11",
+      "motion_kind": "derived_kinematic"
+    }
+  },
+  "timing": {
+    "mode": "shared_output_clock",
+    "mapping_path": null,
+    "valid_interval_s": [
+      0,
+      5.966667
+    ]
+  },
+  "quality_status": "targeted_human_frame_reviewed_with_known_limits",
+  "quality_note": "G1 运动学修正版 · 人体局部修正",
+  "export_note": "Static export of the exact Final media bytes; no new motion quality validation. Detailed private history remains in the source project."
+}
